@@ -10,6 +10,10 @@ html,body{
     height: 100%;
 }
 
+#rispoverlay{
+        display: none;
+    }
+
 #back{
     height: 100%;
     position: relative;
@@ -339,10 +343,6 @@ footer{
     }
 
     #rispoverlay{
-        display: none;
-    }
-
-    #rispoverlay{
         width: 97vw;
         height: auto;
         background-color: white;
@@ -373,6 +373,8 @@ footer{
         background-color: rgb(51, 51, 51);
       height: 400px;
       margin-bottom: 100px;
+        padding: 0;
+      display: flex;
     }
 
     #rispoverlay .profile h5{
@@ -412,17 +414,13 @@ footer{
 
 
    #hc p , #skl p{
-       width: 0;
        font-weight: 600;
        font-size: 16px;
        color: black;
        background-color: transparent;
+         text-align: left;
    } 
-      
-      #js{
-           margin-left: 10px;
-      }
-
+ 
    #aboutme{
        height: 40vh;
    }
