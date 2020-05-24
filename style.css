@@ -378,7 +378,8 @@ footer{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-        
+        padding-top: 10px;
+        border-radius: 3px;
     }
 
     #rispoverlay .profile h5{
@@ -391,6 +392,7 @@ footer{
         color: white;
         background-color: transparent;
         border: 1px solid white;
+        border-radius: 3px;
     }
 
     #rispoverlay .container{
