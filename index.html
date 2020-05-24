@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ak_Profile</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    
+
+    <script>
+  $(document).ready(function(){
+    $('.slider').bxSlider({
+      auto: true,
+autoControls: true,
+pager: false,
+slideWidth: 3999,
+useCSS : true,
+
+
+    });
+  });
+
+  /* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+/* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+    </script>
+</head>
+<body>
+   <div id="navbar">
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#home" onclick="closeNav()">Home</a>
+        <a href="#skills" onclick="closeNav()">Skills</a>
+        <a href="#aboutme" onclick="closeNav()">About Myself</a>
+        <a href="#education" onclick="closeNav()">Education</a>
+        <a href="#contact" onclick="closeNav()">Contact</a>
+        <a href="#links" onclick="closeNav()">Links</a>
+      </div>
+      
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">&#9776;</button>
+       
+      </div>
+   </div>
+    <div id="back">
+        <div class="overlay">
+            <div class="profile">
+               <div class="akimg"></div>
+               <h5>Akshay Mahajan</h5>
+               <p>Web Designer & Developer</p>
+            </div>
+            <div class="container">
+                <h6>Hello!</h6>
+                <p>If you <br> searching a Web <br> Designer and  Developer <br> So you are at right place.. </p>
+            </div>
+            <a href="https://mahajanakshay488.github.io/tastyfood.github.io/" target="_blank">Samle Project</a>
+        </div>
+        <div id="home" class="slider">
+        
+            <div class="img">
+                <img src="https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80" alt="" srcset="">
+            </div>
+            <div class="img">
+                <img src="https://images.unsplash.com/photo-1487014679447-9f8336841d58?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1166&q=80" alt="" srcset="">
+            </div>
+            <div class="img">
+                <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+    <div id="rispoverlay" class="overlay">
+        <div class="profile">
+           <div class="akimg"></div>
+           <h5>Akshay Mahajan</h5>
+           <p>Web Designer & Developer</p>
+        </div>
+        <div class="container">
+            <h6>Hello!</h6>
+            <p>If you <br> searching a Web <br> Designer and  Developer <br> So you are at right place.. </p>
+        </div>
+        <a href="">Samle Project</a>
+    </div>
+    <div class="line"></div>
+    <div id="skills">
+        <h6 class="heading"><i class="fa fa-desktop"></i>Skills</h6>
+        <div id="skl">
+        <div id="hc">
+            <p>HTML</p>
+        <p>CSS</p>
+        </div>
+        <p id="js">JavaScript</p>
+        </div>
+    </div>
+    <div class="line"></div>
+    <div id="aboutme">
+        <h6 class="heading"><i class="fa fa-user-circle"></i>About Myself</h6>
+        <p>I am a person who is positive about every aspect of life. There are many things I like to do, to see, and to experience. I like to read, I like to write; I like to think, I like to dream; I like to talk, I like to listen. </p>
+    </div>
+    <div class="line"></div>
+    <div id="education">
+        <h6 class="heading"><i class="fa fa-university"></i>Education</h6>
+        <div id="edc">
+            <div class="ed">
+                <h4>Schooling</h4>
+                <p>Surya Punj Educational Academy Shahpur, dist- Burhanpur (M.P.)</p>
+            </div>
+            <div class="ed">
+                <h4>Graduation</h4>
+                <p>Technocrats Institute of Technology (Excellence)</p>
+            </div>
+        </div>
+    </div>
+    <div class="line"></div>
+    <div id="contact">
+        <h6 class="heading"><i class="fa fa-phone"></i>Contact</h6>
+       <div id="con">
+        <h4>Phone</h4>
+        <p>+91 9098259610</p>
+        <h4>Email</h4>
+        <p>mahajanakshay488@gmail.com</p>
+       </div>
+    </div>
+    <div class="line"></div>
+    <footer>
+        <div id="links">
+            <a href="https://www.instagram.com/mahajan561/?hl=en" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/akshay-mahajan-7a15481a7" target="_blank"><i class="fa fa-linkedin"></i></a>
+        </div>
+    </footer>
