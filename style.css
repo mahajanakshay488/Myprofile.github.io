@@ -418,6 +418,10 @@ footer{
        color: black;
        background-color: transparent;
    } 
+      
+      #js{
+           margin-left: 10px;
+      }
 
    #aboutme{
        height: 40vh;
